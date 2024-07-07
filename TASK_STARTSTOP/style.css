@@ -1,0 +1,46 @@
+h1{
+    font-family: Georgia;
+    font-style: oblique;
+    color: rgb(148, 102, 192);
+}
+#task{
+    height: 20px;
+    width: 200px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: gainsboro;
+    border: 5px ridge pink;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+#description{
+    height: 20px;
+    width: 200px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: gainsboro;
+    border: 5px ridge pink;
+    margin-left: 20px;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+}
+
+.startbtn {
+    background-color: rgb(38, 168, 38);
+    margin-right: 2rem;
+    border: 0rem; 
+    color: white;
+    font-size: 0.8rem;
+    height: 2rem;
+    width: 5rem;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.startbtn:active {
+    transform: scale(1.01);
+}

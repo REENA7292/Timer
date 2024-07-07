@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STARTSTOP</title>
+    <style>
+        table, th, td {
+          border: 2px solid black;
+          margin: 20px;
+          padding: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="lavender">
+    <center><h1>TABLE INSERTION</h1></center>
+    <form action="">
+        <input type="text" id="task" placeholder="Task"><br><br>
+        <input type="text" id="description" placeholder="Description"><br><br>
+    </form>
+
+    <div class="timer" id="timer">
+        <button class="startbtn" id="startbtn" style="margin-left: 30px;">START</button><br><br>
+        <p id="hours">00</p>
+        <p>&nbsp;:&nbsp;</p>
+        <p id="minutes">00</p>
+        <p>&nbsp;:&nbsp;</p>
+        <p id="seconds">00</p>
+    </div>
+
+
+    <table id="table">
+        <tr>
+          <th>TASK</th>
+          <th>DESCRIPTION</th>
+          <th>DURATION</th>
+        </tr>
+        <tr>
+          <td>Meeting</td>
+          <td>Daily Scrum</td>
+          <td>01:35:12</td>
+        </tr>
+        <tr>
+          <td>Meeting</td>
+          <td>Daily Scrum</td>
+          <td>02:55:09</td>
+        </tr>
+      </table>
+
+</body>
+<script type="module" src="./time.js"></script>
+</html>
